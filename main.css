@@ -29,3 +29,19 @@ main {
 .quote {
   background-color: blue;
 }
+
+h1 {
+  background-color: darkgoldenrod;
+}
+
+#quote1 {
+  background-color: chartreuse;
+}
+
+.author {
+  background-color: azure;
+}
+
+.footer {
+  background-color: hotpink;
+}
