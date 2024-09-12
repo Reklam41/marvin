@@ -9,9 +9,9 @@ body {
 main {
   /*background-color: cyan;*/
   display: grid;
-  grid-template-columns: 13.2vw 18.2vw 26vw;
-  width: calc(13.2vw + 18.2vw + 26vw + 2.6vw);
-  gap: 1.3vw;
+  grid-template-columns: 7.1vw 18.2vw 26vw;
+  width: calc(7.1vw + 18.2vw + 26vw + 2.6vw);
+  gap: 1.5vw;
 }
 
 .logo {
@@ -81,6 +81,6 @@ article {
   border-left: 2px dotted black;
   height: 52vh;
   position: relative;
-  left: 154px;
+  left: 38px;
   opacity: 0.2;
 }
