@@ -20,6 +20,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: 25px;
 }
 
 .image {
@@ -42,6 +43,9 @@ h1,
 
 h1 {
   background-color: darkgoldenrod;
+  position: relative;
+  top: 17vh;
+  font-family: Baskerville Old Regular, sans serif;
 }
 
 article {
@@ -50,12 +54,28 @@ article {
 
 #quote1 {
   background-color: chartreuse;
+  position: relative;
+  top: 18vh;
+  font-family: Goudy Old Style "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif,
+    sans-serif;
 }
 
 .author {
   background-color: azure;
+  position: relative;
+  top: 19vh;
+  font-family: Adobe Jenson Pro "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .footer {
   background-color: hotpink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dotted-line-vertical {
+  border-left: 2px dotted black;
+  position: relative;
+  left: 66px;
 }
