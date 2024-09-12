@@ -8,6 +8,10 @@ body {
 
 main {
   background-color: cyan;
+  display: grid;
+  grid-template-columns: 13.2vw 35vw 26vw;
+  width: calc(13.2vw + 35vw + 26vw + 2.6vw);
+  gap: 1.3vw;
 }
 
 .logo {
