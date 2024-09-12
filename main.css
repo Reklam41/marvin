@@ -26,12 +26,26 @@ main {
   background-color: green;
 }
 
-.quote {
+.right {
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+#quote1,
+.author,
+.footer {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   background-color: darkgoldenrod;
+}
+
+article {
+  flex-grow: 1;
 }
 
 #quote1 {
