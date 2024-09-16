@@ -20,7 +20,6 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 25px;
 }
 
 /*.image {
@@ -65,8 +64,7 @@ article {
   /*background-color: azure;*/
   position: relative;
   top: 19vh;
-  font-family: Adobe Jenson Pro "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Perpetua, regular;
   opacity: 0.2;
 }
 
@@ -74,7 +72,7 @@ article {
   /*background-color: azure;*/
   position: relative;
   top: 18vh;
-  font-family: Microsoft Uighur, sans-serif;
+  font-family: Perpetua, regular;
   opacity: 0.2;
 }
 
