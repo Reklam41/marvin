@@ -9,9 +9,10 @@ body {
 main {
   /*background-color: cyan;*/
   display: grid;
-  grid-template-columns: 7.1vw 18.2vw 26vw;
-  width: calc(7.1vw + 18.2vw + 26vw + 2.6vw);
-  gap: 1.5vw;
+  width: 812px;
+  display: grid;
+  grid-template-columns: 130px 360px 260px;
+  column-gap: 35px;
 }
 
 .logo {
@@ -45,7 +46,7 @@ h1 {
   /*background-color: darkgoldenrod;*/
   position: relative;
   top: 17vh;
-  font-family: Baskerville Old Regular, sans serif;
+  font-family: Goudy Old Style, Garamond, Times New Roman, serif;
   opacity: 0.3;
 }
 
@@ -57,9 +58,8 @@ article {
   /*background-color: chartreuse;*/
   position: relative;
   top: 18vh;
-  font-family: Goudy Old Style "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif,
-    sans-serif;
+  font-family: Baskerville, Roman, serif;
+  font-size: 20px;
 }
 
 .author {
@@ -71,16 +71,20 @@ article {
   opacity: 0.2;
 }
 
+.year {
+  /*background-color: azure;*/
+  position: relative;
+  top: 18vh;
+  font-family: Microsoft Uighur, sans-serif;
+  opacity: 0.2;
+}
+
 .footer {
   /*background-color: hotpink;*/
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.1;
 }
 
-.dotted-line-vertical {
-  border-left: 2px dotted black;
-  height: 52vh;
-  position: relative;
-  left: 38px;
-  opacity: 0.2;
+main div.logo {
+  border-right: 1px dotted #cccccc;
 }
